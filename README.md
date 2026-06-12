@@ -19,7 +19,7 @@ The project was developed as part of the **Computer Vision** course in the Maste
 
 The experiments were conducted using a balanced subset of the RRDataset.
 
-To reduce computational requirements while maintaining class balance, 300 images were selected from each category, resulting in a total of 1800 images.
+To reduce computational requirements while maintaining class balance, 300 images were selected from each category, resulting in a total of 1,800 images.
 
 Dataset distribution:
 
@@ -35,6 +35,43 @@ The dataset was split into:
 * Validation set: 360 images (20%)
 
 ---
+
+## Dataset and Reproducibility
+
+The dataset used in this project is not included in this repository due to its size.
+
+Dataset folder:
+
+[PASTE YOUR GOOGLE DRIVE LINK HERE]
+
+### Running the Notebook
+
+This project was developed and tested using Google Colab.
+
+To reproduce the experiments:
+
+1. Download the dataset from the Google Drive folder linked above.
+2. Upload the dataset to your own Google Drive.
+3. Open the notebook in Google Colab.
+4. Mount Google Drive:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+5. Update the dataset path variable if necessary:
+
+```python
+DATASET_PATH = "/content/drive/MyDrive/RRDataset"
+```
+
+6. Run all notebook cells sequentially.
+
+### Notes
+
+The exact Google Drive location may differ depending on where the dataset is stored. If needed, update the dataset path accordingly before running the notebook.
+
 
 ## Methodology
 
