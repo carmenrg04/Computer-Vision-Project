@@ -158,12 +158,18 @@ Additionally, qualitative visual inspections were performed on randomly selected
 
 | Class        | Precision | Recall | F1-Score |
 | ------------ | --------: | -----: | -------: |
-| Real         |      0.84 |   0.89 |     0.86 |
-| AI-generated |      0.89 |   0.84 |     0.86 |
+| Real         |      0.85 |   0.89 |     0.87 |
+| AI-generated |      0.90 |   0.87 |     0.88 |
 
-**Overall Accuracy: 86%**
+**Overall Accuracy: 88%**
 
 The results demonstrate that the proposed multi-task framework can learn meaningful forensic representations even under challenging real-world conditions involving internet transmission and re-digitization.
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+The confusion matrix shows a balanced performance across both classes, with similar precision and recall values for real and AI-generated images.
 
 ---
 
@@ -208,7 +214,7 @@ pip install -r requirements.txt
 
 ## Authors
 
-Paola Cortés Domínguez
+Paola Cortés Domínguez  
 Carmen Rojas Gallego
 
 ---
