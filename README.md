@@ -65,6 +65,7 @@ drive.mount('/content/drive')
 ```python
 DATASET_PATH = "/content/drive/MyDrive/RRDataset"
 ```
+Here you have to copy the path where you have your drive folder.
 
 6. Run all notebook cells sequentially.
 
