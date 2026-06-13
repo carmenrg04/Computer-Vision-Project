@@ -42,7 +42,7 @@ The dataset used in this project is not included in this repository due to its s
 
 Dataset folder:
 
-[PASTE YOUR GOOGLE DRIVE LINK HERE]
+(https://drive.google.com/drive/folders/1pzCS_3iHQTbyWkKazOEZXYJJD53Lc-8f?usp=sharing)
 
 ### Running the Notebook
 
